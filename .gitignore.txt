@@ -1,0 +1,32 @@
+# Ignorar arquivos e pastas gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de log e caches
+/application/logs/*
+/application/cache/*
+
+# Ignorar arquivos de configuração personalizados
+/application/config/config.php
+/application/config/database.php
+
+# Ignorar arquivos de uploads
+/public/uploads/*
+/public/assets/uploads/*
+
+# Ignorar pastas e arquivos específicos do IDE
+/.idea/
+/.vscode/
+/nbproject/
+
+# Ignorar dependências do Composer (se aplicável)
+vendor/
+
+# Ignorar dependências do Node.js (se aplicável)
+node_modules/
+
+# Ignorar arquivos temporários e de backup
+*.swp
+*.bak
+*.tmp
+*~
