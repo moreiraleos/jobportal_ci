@@ -1,0 +1,6 @@
+phpunit.xml.dist filter=lfs diff=lfs merge=lfs -text
+preload.php filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+composer.json filter=lfs diff=lfs merge=lfs -text
+composer.lock filter=lfs diff=lfs merge=lfs -text
+index.php filter=lfs diff=lfs merge=lfs -text
